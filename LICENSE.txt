@@ -1,0 +1,23 @@
+Signal / DAC — Proprietary Freeware Licence
+Copyright © 2026 Th0st3r & MacekW. All rights reserved.
+
+The copyright holders permit you to download and run unmodified official
+binary releases of Signal / DAC, free of charge, for personal use or internal
+use within an organization. You may share an unmodified official binary
+provided this licence and the bundled third-party notices remain available.
+
+This is not an open-source licence. No permission is granted to distribute
+the application's source code, modify the application, distribute modified
+versions, sell or sublicense it, or create derivative works without prior
+written permission from the copyright holders. Source supplied privately
+remains confidential and may be used only as expressly authorized by them.
+Nothing here limits rights that applicable law does not permit restricting.
+
+The software is provided "AS IS", without warranties of any kind, express
+or implied. To the extent permitted by law, the copyright holders are not
+liable for losses or damages arising from its use. You remain responsible
+for your audio equipment, playback levels and Windows configuration.
+
+Third-party software is governed by its own licences, reproduced in the
+application's About > Third-party licences tab. This licence does not
+restrict rights granted under those third-party licences.
