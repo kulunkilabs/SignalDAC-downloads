@@ -9,7 +9,10 @@ One portable EXE, with its runtime included. No separate .NET installation. Wind
 ## Features
 
 - Automatically detects source formats where players/local files expose them.
+- Supports NAS/mapped-file metadata and buffered Astra playback through a read-only local-library match.
+- Shows audio activity for games and other Windows apps, with a separately labelled Windows mixer format when original PCM metadata is unavailable.
 - Shows readable live DAC driver format separately from source precision and the Windows shared setting.
+- During active shared playback without driver access, the output panel clearly says **Windows output setting** and **driver not verified**. Driver container bitrate stays unavailable.
 - Shared 16/24/32-bit controls, sample-rate selection and automatic source matching.
 - **Apply best Windows settings** configures supported DAC endpoint policies, checks each result, and saves a per-device restore backup.
 - Tray minimization, explicit Quit, always-on-top and an audio setup guide.
@@ -23,7 +26,7 @@ One portable EXE, with its runtime included. No separate .NET installation. Wind
 
 The preset enables Windows exclusive control/priority, disables Windows system effects and spatial sound where supported, chooses a supported source format or retains the current rate, and enables shared-mode source matching. Volume and default-device routing keep their current settings. Changes can briefly interrupt playback and remain applied after exit.
 
-Source quality can remain **Unknown** for browser, streaming, protected or unsupported sources. Some drivers/ASIO paths do not expose a readable active stream. Windows 10 spatial sound and unsupported policy controls need manual setup. Matching sample rates does not prove bit-perfect audio. Original 16/24-bit music can use 32-bit USB containers.
+Source quality can remain **Unknown** for games, browser, streaming, protected or unsupported sources. The Windows mixer fallback is its shared engine format, not original recording precision or a driver measurement; it never triggers source matching. Astra requires exactly one matching local-library entry and no API token. Some drivers/ASIO paths do not expose a readable active stream. Windows 10 spatial sound and unsupported policy controls need manual setup. Matching sample rates does not prove bit-perfect audio. Original 16/24-bit music can use 32-bit USB containers.
 
 ## Licence and credits
 
