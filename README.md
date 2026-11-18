@@ -18,6 +18,7 @@ One portable EXE, with its runtime included. No separate .NET installation. Wind
 - **Apply best Windows settings** configures supported DAC endpoint policies, checks each result, and saves a per-device restore backup.
 - Resizable window with standard Windows controls, Snap and remembered placement.
 - **Window > Compact monitor** opens a small floating view with input and output depth and sample rate. It has its own **Always on top** switch.
+- **Window > Desktop widget** opens a two-row readout with no title bar or taskbar button. Drag to move it and right-click to pin it or return to the full app.
 - Send to tray, optional automatic tray minimization, Always on top and an audio setup guide.
 - No song titles or artist names in the window.
 
