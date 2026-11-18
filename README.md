@@ -20,7 +20,8 @@ Run the EXE from the folder where you want to keep it. On first launch, Signal /
 - **Apply best Windows settings** configures supported DAC endpoint policies, checks each result, and saves a per-device restore backup.
 - Resizable window with standard Windows controls, Snap and remembered placement.
 - **Window > Compact monitor** opens a small floating view with input and output depth and sample rate. It has its own **Always on top** switch.
-- **Window > Desktop widget** toggles a borderless readout that stays in place while you open or close the main window. Drag it to move it. Right-click for **Always on top**, **Full window**, **Hide widget**, and **Quit**. The app restores the widget at its saved position on the next launch.
+- **Window > Desktop widget** toggles a borderless readout that stays in place while you open or close the main window. Drag the panel to move it and its lower-right handle to resize it. The app remembers its size, position and pin setting.
+- **Start with Windows** is available from the Window and tray menus. It restores the enabled widget when you sign in and leaves the main window in the tray.
 - Send to tray, optional automatic tray minimization, Always on top and an audio setup guide.
 - No song titles or artist names in the window.
 
